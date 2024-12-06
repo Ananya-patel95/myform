@@ -44,6 +44,13 @@ class _MyformState extends State<Myform> {
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5))),
               ),
+              TextFormField(
+                controller: passwordController,
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(5))),
+              ),
+
               SizedBox(
                 height: 10,
               ),
